@@ -3,7 +3,7 @@
     <div class="max-w-md my-20">
         <h1 class="text-center text-white font-bold mb-4 text-2xl">History Prediksi Status Mahasiswa</h1>
         
-        <div class="relative overflow-x-auto shadow-md rounded-lg mx-4 sm:mx-0">
+        <div class="relative overflow-x-auto rounded-lg mx-4 sm:mx-0">
             @if ($predictionHistory->isNotEmpty())
                 <table class="w-full text-sm text-left rtl:text-right bg-gray-300">
                     <thead class="text-xs uppercase">
